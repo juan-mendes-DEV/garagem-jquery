@@ -1,0 +1,181 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(253, 251, 240);
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+}
+.container-flex{
+    display: flex;
+}
+.menu-hamburguer{
+    width: 32px;
+    
+}
+.menu-hamburguer span{
+    height: 2px;
+    width: 100%;
+    margin-bottom: 4px;
+    background-color: white;
+    display: block;
+    cursor: pointer;
+}
+header > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+#sobreAloja img{
+    max-width: 400px;
+    width: 100%;
+    margin-right: 24px;
+    margin-left: 20px;
+    border-radius: 10px 100px 10px 100px;
+    border: 1px solid gold;
+    box-shadow: 3px 3px 3px black;
+}
+.lista-veiculos{
+    flex-wrap: wrap;
+}
+.lista-veiculos li{
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+.lista-veiculos li img{
+    max-width: 100%;
+}
+.lista-veiculos li h3{
+    margin: 16px 0;
+}
+button{
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-image:linear-gradient(50deg, lime, black);
+    color: gold;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+button:hover{
+    background-image: linear-gradient(50deg, black,lime);
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+form button{
+    max-width: 120px;
+}
+.price{
+    margin: 16px 0;
+    display: block;
+}
+.price del{
+    color: grey;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.item-central{
+    margin: 0 5%;
+}
+.form-campo{
+    margin-bottom: 16px;
+    
+}
+.form-campo label{
+    font-weight: bold;
+    display: block;
+} 
+.form-campo input, .form-campo textarea{
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+.form-campo textarea{
+    resize: none;
+    height: 120px;
+}
+.contato{
+    max-width: 350px;
+    margin-left: 200px;
+}
+section{
+    padding: 48px 0;
+}
+section h2{
+    margin-bottom: 16px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image:linear-gradient(50deg, black, gold);
+    color: azure;
+    padding-top: 16px;
+    border-bottom: 1px solid gold;
+    box-shadow: 2px 2px 2px black;
+}
+nav{
+    background-image:linear-gradient(60deg, rgb(255, 255, 255),black) ;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right:16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav li > a{
+    text-decoration: none;
+    color: rgb(134, 114, 0);
+    transition: 0.3s;
+}
+nav li > a:hover{
+    color: aliceblue;
+    font-style: italic;
+}
+footer{
+    background-image:linear-gradient(50deg, gold, black);
+    border-top: 1px solid gold;
+}
+footer ul{
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    list-style: none;
+    margin-left: 1100px;
+    
+}
+footer a img{
+    width: 40px;
+    margin-left: 7px;
+}
+footer p{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    padding: 0;
+    left: 400px;
+    top: 20px;
+    
+}
